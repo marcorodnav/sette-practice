@@ -2,7 +2,7 @@
 {
 	position: relative;
 	display: block;
-	overflow: auto;
+	overflow: hidden;
 	width: 1000px;
 	margin: 0 auto;
 }
@@ -160,6 +160,15 @@ h1
 	font-size: 20px;
 	text-transform: uppercase;
 	color: #000;
+}
+
+h2 {
+    position: relative;
+    display: block;
+    margin: 0 0 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000;
 }
 
 header p
@@ -450,11 +459,49 @@ h2
     color: #000;
 }
 
+.datos-proyecto p {
+    position: relative;
+	display: block;
+    background-image: url(../imagenes/bullet.jpg);
+	background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
+.datos-proyecto .boton-negro {
+    margin-top: 15px;
+}
 
+#regresar a{
+    position: relative;
+    display: inline-block;
+    background-image: url(../imagenes/flecha-regresar.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 15px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
 
+.imagen-proyecto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+.imagen-proyecto img{
+	position: relative;
+	display: block;
+	border: 3px solid #000;
+	box-sizing: border-box;
+}
 
+.imagen-proyecto img:hover
+{
+	border-color: #fccc00;
+}
 
 
 
